@@ -3,11 +3,9 @@ body {
     font-family: Arial, sans-serif;
   }
 
-section {
-   margin-top: 50px;
-}
-  
+  /*------CODIGO CORRESPONDIENTE A LA BARRA DE NAVEGACIÓN-----*/
 nav {
+    display: block;
     position: fixed;
     top: 0;
     width: 100%;
@@ -15,6 +13,8 @@ nav {
     line-height: 60px; 
   }
   
+
+
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -23,11 +23,14 @@ nav {
     height: 60px; 
     display: flex;
     justify-content: space-between; 
+    align-items: center;
   }
   
   nav ul li {
     height: 100%; 
     width: 100%;
+    align-items: center;
+    text-align: center;
   }
   
 .ImagenNav{
@@ -45,7 +48,7 @@ nav {
         display: flex;
         align-items: center; 
         width: 100%;
-        font-size: 30px;
+        font-size: 50px;
         font-weight: bold;
 }
 
@@ -59,11 +62,122 @@ nav {
     display: flex;
     align-items: center; 
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     
   }
+
+  .barraNavegacion li a {
+    text-align: center;
+  }
   
+
+nav .barraNavegacion li:nth-child(3) {
+  text-align: end;
+  background-color: #536EFF;
+}
+
+nav .barraNavegacion li:nth-child(4) {
+  text-align: end;
+  background-color: #4765FF;
+}
+
+nav .barraNavegacion li:nth-child(5) {
+  text-align: end;
+  background-color: #2E4FFF;
+}
+
+nav .barraNavegacion li:nth-child(6) {
+  text-align: end;
+  background-color: #163CFF;
+}
+
+nav .barraNavegacion li:nth-child(7) {
+  text-align: end;
+  background-color: #0029FF;
+}
+/*----------------------------------------------------------------------------------------------------*/
+/*-Fin código de barra de navegación------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+/*-----CÓDIGO CORRESPONDIENTE A LA SECCIÓN DE LIBROS-----*/
+.plantillaLibros{
+  display: inline-block;
+  background-color: #F9DAAB;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.tituloLibro{
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.contenedorLibros {
+  display: flex;
+  align-items: start; 
+  max-height: 800px; 
+  overflow: hidden; 
+}
+
+.imagenLibro{
+  height: 720px;
+  width: 600px;
+  margin: 40px 0px 40px 40px;
+}
+
+.texto {
+  margin: 20px 20px 0px 20px;
+}
+
+.texto p {
+  font-size: 25px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*-Fin de la sección de libros--------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+
+/*CODIGO DE MANTENIMIENTO*/
+.plantillaMantenimiento{
+  display: inline-block;
+  background-color: #6b6b6b;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+
+.contenedorMantenimiento {
+  display: flex;
+  align-items: start; 
+  max-height: 400px; 
+  overflow: hidden; 
+}
+
+.imagenMantenimiento{
+  height: 350px;
+  width: 350px;
+  margin: 40px 0px 40px 40px;
+}
+
+.texto {
+  margin: 20px 20px 0px 20px;
+}
+
+.texto .textoMantenimiento {
+  font-size: 100px;
+}
+  
+
   
   body {
     padding-top: 40px; 

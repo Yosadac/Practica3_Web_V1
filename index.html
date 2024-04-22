@@ -5,50 +5,187 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Barra de Navegación Fija</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="imagenes/PlanetaTierra.png" type="image/png">
 </head>
 <body>
 
 <nav>
-  <ul>
+  <ul class="barraNavegacion">
     <li class="ImagenNav"><img src="imagenes/PlanetaTierra.png" alt="Planeta Tierra" width="60px" height="60px">    </li>
     <li class="TituloPagina">Mi blog</li>
-    <li><a href="#Libros">Libros</a></li>
-    <li><a href="#Peliculas">Películas</a></li>
-    <li><a href="#Bandas">Bandas</a></li>
-    <li><a href="#Conciertos">Conciertos</a></li>
-    <li><a href="#Lugares">Lugares</a></li>
+    <li><a href="#libros">Libros</a></li>
+    <li><a href="#peliculas">Películas</a></li>
+    <li><a href="#bandas">Bandas</a></li>
+    <li><a href="#conciertos">Conciertos</a></li>
+    <li><a href="#lugares">Lugares</a></li>
   </ul>
 </nav>
 
-<section id="Inicio">
-  <h2>Mis libros favoritos</h2>
-  <!-- Contenido de la sección Inicio -->
-  
+<!--SECTION CORRESPONDIENTE A LOS LIBROS-->
+<section id="libros">
+  <p class="tituloLibro">Mis libros favoritos</p>
+
+  <!--Plantilla de cada uno de los libros-->
+  <!--Libro Veinte mil leguas de viaje submarino-->
+  <div class="plantillaLibros">
+    <div class="contenedorLibros">
+      <img class="imagenLibro" src="imagenes/PortadaVeinteMilLeguas.webp" alt="Imagen">
+      <div class="texto">
+        <p>
+          <b>Autor: </b>Julio Verne
+        </p>
+        <p>
+          <b>Género: </b>Novela, Ciencia Ficción
+        </p>
+        <p>
+          <b>Editorial: </b>Pierre-Jules Hetzel
+        </p>
+        <p>
+          <b>Fecha de publicación: </b>20 de Marzo de 1869
+        </p>
+        <p>
+          <b>Sinopsis: </b>Un monstruo marino ha puesto en marcha todas las alarmas, y finalmente se organiza una expedición para capturarlo, en la que figuran el célebre profesor de Historia Natural Pierre Aronnax, su ayudante Conseil y el experto arponero canadiense Ned Land, a bordo de la fragata estadounidense Abraham Lincoln.
+        </p>
+        <p>
+          El monstruo resulta ser un sorprendente submarino a las órdenes del capitán Nemo, y el hecho de que deba mantener el secreto plantea un grave problema al capitán en cuanto a la liberación de los tres personajes principales.
+        </p>
+        <p>
+          El capitán Nemo, el sabio atormentado y desengañado de la raza humana, en el que confluyen el individualismo libertario y un exacerbado sentido de la justicia, se ha convertido sin duda en uno de los paradigmas de la novela de aventuras y su presencia ya bastaría para justificar el lugar de honor que ocupa Veinte mil leguas de viaje submarino en el género. Y sin embargo contiene muchos otros alicientes: emoción, conocimiento, suspense, personajes inolvidables, lances inesperados...
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--Libro Yo Robot-->
+  <div class="plantillaLibros">
+    <div class="contenedorLibros">
+      <img class="imagenLibro" src="imagenes/PortadaYoRobot.webp" alt="Imagen">
+      <div class="texto">
+        <p>
+          <b>Autor: </b>Isaac Asimov
+        </p>
+        <p>
+          <b>Género: </b>Ciencia Ficción
+        </p>
+        <p>
+          <b>Editorial: </b>Gnome Press
+        </p>
+        <p>
+          <b>Fecha de publicación: </b>2 de Diciembre de 1950
+        </p>
+        <p>
+          <b>Sinopsis: </b>Los robots de Isaac Asimov son máquinas capaces de llevar a cabo muy diversas tareas, y que a menudo se plantean a sí mismos problemas de 'conducta humana'. Pero estas cuestiones se resuelven en Yo, robot en el ámbito de las tres leyes fundamentales de la robótica, concebidas por Asimov, y que no dejan de proponer extraordinarias paradojas que a veces se explican por errores de funcionamiento y otras por la creciente complejidad de los 'programas'. 
+        </p>
+        <p>
+          Las paradojas que se plantean en estos relatos futuristas no son sólo ingeniosos ejercicios intelectuales sino sobre todo una indagación sobre la situación del hombre actual en relación con los avances tecnológicos y con la experiencia del tiempo.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--Libro Crimen y castigo-->
+  <div class="plantillaLibros">
+    <div class="contenedorLibros">
+      <img class="imagenLibro" src="imagenes/PortadaCrimenYCastigo.webp" alt="Imagen">
+      <div class="texto">
+        <p>
+          <b>Autor: </b>Fiodor Dostoievski
+        </p>
+        <p>
+          <b>Género: </b>Novela psicología, ficción psicológica y novela policiaca
+        </p>
+        <p>
+          <b>Editorial: </b>El mensajero ruso
+        </p>
+        <p>
+          <b>Fecha de publicación: </b>1866
+        </p>
+        <p>
+          <b>Sinopsis: </b>El joven Rodión Raskólnikov, antiguo estudiante, arrastra una existencia precaria en San Petersburgo. Cuando recibe una carta anunciándole la visita de su madre y su hermana en relación con los súbitos planes de boda de esta última, las fantasías de acabar con sus problemas a través del asesinato de la vieja prestamista a la cual suele recurrir van tomando cuerpo en su voluntad...</p>
+        <p>
+          Crimen y castigo (1866) es posiblemente la obra más lograda del autor. En ella, sirviéndose de una trama y de unos personajes que reúnen los mejores ingredientes de la novela del siglo XIX, se plantea el problema de la justificación o no de los actos, de la conciencia y de la culpa. 
+        </p>
+        <p>
+          Fiódor Dostoyevski (1821-1881) es, junto con Lev Tolstói, el gran novelista ruso del siglo XIX. Su vida y su creación literaria sufrieron un cambio radical después de que en 1849 fuera detenido y condenado a muerte, pena que se le conmutó en el último instante, por sus actividades contra el zar.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="Peliculas">
-  <h2>Mis películas favoritas</h2>
-  <!-- Contenido de la sección Acerca de -->
- 
+<!--SECTION CORRESPONDIENTE A LAS PELICULAS-->
+<section id="peliculas">
+  <p class="tituloLibro">Mis películas favoritas</p>
+
+  <!--Plantilla de cada uno de los libros-->
+  <!--Libro Veinte mil leguas de viaje submarino-->
+  <div class="plantillaMantenimiento">
+    <div class="contenedorMantenimiento">
+      <img class="imagenMantenimiento" src="imagenes/mantenimiento.png" alt="Imagen">
+      <div class="texto">
+        <p class="textoMantenimiento">
+          PROXIMAMENTE
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="Bandas">
-  <h2>Mis bandas favoritas</h2>
-  <!-- Contenido de la sección Servicios -->
-  
+<!--SECTION CORRESPONDIENTE A LAS BANDAS-->
+<section id="bandas">
+  <p class="tituloLibro">Mis bandas favoritas</p>
+
+  <!--Plantilla de cada uno de los libros-->
+  <!--Libro Veinte mil leguas de viaje submarino-->
+  <div class="plantillaMantenimiento">
+    <div class="contenedorMantenimiento">
+      <img class="imagenMantenimiento" src="imagenes/mantenimiento.png" alt="Imagen">
+      <div class="texto">
+        <p class="textoMantenimiento">
+          PROXIMAMENTE
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="Conciertos">
-  <h2>Mis conciertos favoritos</h2>
-  <!-- Contenido de la sección Contacto -->
-  
+<!--SECTION CORRESPONDIENTE A LOS CONCIERTOS-->
+<section id="conciertos">
+  <p class="tituloLibro">Mis conciertos favoritos</p>
+
+  <!--Plantilla de cada uno de los libros-->
+  <!--Libro Veinte mil leguas de viaje submarino-->
+  <div class="plantillaMantenimiento">
+    <div class="contenedorMantenimiento">
+      <img class="imagenMantenimiento" src="imagenes/mantenimiento.png" alt="Imagen">
+      <div class="texto">
+        <p class="textoMantenimiento">
+          PROXIMAMENTE
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="Lugares">
-    <h2>Mis lugares favoritos</h2>
-    <!-- Contenido de la sección Contacto -->
-    
-  </section>
+<!--SECTION CORRESPONDIENTE A LOS LUGARES-->
+<section id="lugares">
+  <p class="tituloLibro">Mis lugares favoritos</p>
+
+  <!--Plantilla de cada uno de los libros-->
+  <!--Libro Veinte mil leguas de viaje submarino-->
+  <div class="plantillaMantenimiento">
+    <div class="contenedorMantenimiento">
+      <img class="imagenMantenimiento" src="imagenes/mantenimiento.png" alt="Imagen">
+      <div class="texto">
+        <p class="textoMantenimiento">
+          PROXIMAMENTE
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 </body>
 </html>
