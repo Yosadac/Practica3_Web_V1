@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+section {
+   margin-top: 50px;
+}
+  
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #6B83FD;
+    line-height: 60px; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 60px; 
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  nav ul li {
+    height: 100%; 
+    width: 100%;
+  }
+  
+.ImagenNav{
+    width: 60px;
+}
+  
+.TituloPagina{
+    display: block;
+    display: block;
+        color: white;
+        text-align: center;
+        padding: 0 16px;
+        text-decoration: none;
+        height: 100%; 
+        display: flex;
+        align-items: center; 
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+}
+
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    height: 100%; 
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  
+  
+  body {
+    padding-top: 40px; 
+  }
+  
